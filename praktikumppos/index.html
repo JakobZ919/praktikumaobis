@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 6em;
+            margin-top: 20px;
+            margin-left: 450px;
+        }
+        .highlight {
+            color: #ce6e08;
+        }
+        .centerup {
+            text-align: left;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            color: white;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        li {
+            font-size: 2.4em;
+            margin-bottom: 50px;
+            font-weight: bold;
+            border: 1px solid #ce6e08;
+            border-radius: 5px;
+            padding: 5px 10px;
+            color: #ce6e08;
+            text-shadow: 8px 8px 36px #ce6e08; /* Set shadow color to match font color */
+            box-shadow: 8px 8px 32px #ce6e08; /* Set shadow color to match font color */
+        }
+        .next-page-button {
+            margin-top: 20px;
+        }
+        .next-page-button button {
+            background-color: #ce6e08;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .next-page-button button:hover {
+            background-color: #ff9933; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+<div class="centerup">
+    <h1><span class="highlight">a</span>obis</h1>
+    <ul>
+        <li>Personal: 54 Personen</li>
+        <li>Standort: Wiesseer Straße 42, 83700 Kreuth-Weißach</li>
+        <li>Branche: IT</li>
+    </ul>
+    <div class="next-page-button">
+        <button onclick="window.location.href='first_day.html'">Next Page: 1.Tag</button>
+    </div>
+</div>
+</body>
+</html>
